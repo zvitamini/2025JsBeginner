@@ -1,0 +1,26 @@
+#numberArea{
+    text-align: center;
+    background-color: bisque;
+    font-family: Helvetica;
+}
+#myLabel{
+    margin-top: 200px;
+    font-size: 2em;
+}
+#btnRandom{
+    margin: 100 100 20 20;
+    size: 2em;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 8px;
+    background-color: rgb(86, 241, 99);
+    transition:background-color 0.2s;
+}
+#btnRandom:hover{
+    background-color: rgb(65, 192, 71);
+}
+.numberInput{
+    text-align: center;
+    height: 30px;
+    border-radius: 8px;
+}
