@@ -1,0 +1,21 @@
+label{
+    font-size: 2em;
+}
+input{
+    font-size: 2em;
+}
+button{
+    align-items: center;
+    background-color: rgb(131, 207, 182);
+    text-align: center;
+    font-size: 2em;
+    border-radius: 5px;
+    width: 100px;
+    transition: background-color 0.2s;
+}
+button:hover{
+    background-color: rgb(43, 177, 132);
+}
+p{
+    font-size: 2em;
+}
