@@ -1,0 +1,44 @@
+body{
+    font-family: Helvetica;
+    font-size: 2em;
+    margin-top: auto;
+}
+button{
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(240, 149, 243);
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: rgb(223, 15, 205);
+}
+
+.uyari{
+    font-style: italic;
+    font-size: 1.5em;
+    color: grey;
+}
+
+.uyari.yesil{
+    color: rgb(83, 241, 122);
+}
+.uyari.turuncu{
+    color: rgb(238, 106, 12);
+}
+
+.uyari.mor{
+    color: rgb(111, 9, 207);
+}
+.uyari.mavi{
+    color: rgb(0, 132, 255);
+}
+.uyari.gri{
+    font-style: oblique;
+    color: grey;
+}
