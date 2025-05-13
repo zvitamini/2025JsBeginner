@@ -1,0 +1,19 @@
+button{
+    background-color: crimson;
+    color: ghostwhite;
+    border-radius: 8px;
+    font-size: 2em;
+    text-align: center;
+    margin: 100px;
+    transition: background-color 0.2s;
+    transition: font-size 0.2s;
+}
+button:hover{
+    background-color: brown;
+    font-size: 2.1em;
+}
+label{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
