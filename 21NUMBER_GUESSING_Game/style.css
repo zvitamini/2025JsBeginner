@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    height: 80vh;
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Orbitron' sans-serif;
+    color: white;
+}
+.container{
+    position: relative;
+    padding: 40px;
+    border-radius: 20px;
+    background: #111;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(24, 24, 24, 0.1);
+}
+.container::before{
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(31deg, red, yellow, lime, cyan, blue, magenta, red);
+    background-size: 600% 600%;
+    border-radius: 22px;
+    animation: borderRotate 10s linear infinite;
+    filter: blur(20px);
+}
+
+@keyframes borderRotate {
+    0% {
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+h1{
+    margin-bottom: 20px;
+    color:  #ffffff;
+    border-color: #111;
+    text-shadow:0 0 8px #1b1b1b, 0 0 18px #111;
+}
+label{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-shadow:0 0 5px #111, 0 0 8px #111;
+
+}
+
+input{
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: #ffffff;
+    color: #1b1b1b;
+    font-weight: bold;
+    box-shadow:0 0 2px #111, 0 0 5px #111;
+    text-align: center;
+}
+
+button{
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background: #1b1b1b;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow:0 0 5px #111, 0 0 15px #111;
+    transition: transform 0.2s;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+#guessUyari {
+    margin-top: 20px;
+    font-size: 16px0;
+    color: #ffffff;
+    text-shadow:0 0 5px #111, 0 0 8px #111;
+}
+
+.message{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #0f0;
+    text-shadow:0 0 5px #111, 0 0 8px #111;
+}
+
+#myP{
+    margin-top: 20px;
+    font-size: 16px0;
+    color: #ffffff;
+    text-shadow:0 0 5px #111, 0 0 8px #111;
+}
