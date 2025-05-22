@@ -1,4 +1,4 @@
-# 👩‍💻 Zvitamin JavaScript Öğrenme Yolculuğu
+# 👩‍💻 Zvitamini JavaScript Öğrenme Yolculuğu
 
 Merhaba!  
 Ben **Zvitamini**. Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümünü bitirdim ve kendime yeni uğraşlar çıkarmak için buradayım.
