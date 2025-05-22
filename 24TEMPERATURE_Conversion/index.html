@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertioons Zvitamni</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form >
+        <h1>Sıcaklık Çevirme Programı</h1>
+        <p class="fire">Sıcak</p>
+        <input type="number" value="0" name="" id="textBox"> <br>
+
+        <input type="radio" id="toFahreneit" name="unit">
+        <label for="toFahreneit">Celcius ➡️ Fahreneit</label>  <!-- Bu emojiyi çağırmak için "windows tuşu" + "." kullandık-->
+        <br>
+        <input type="radio" id="toCelcius" name="unit">
+        <label for="toCelcius">Fahreneit ➡️ Celcius</label><br>
+
+        <button type="button" onclick="convert()">Gir</button>
+        <p id="result"></p>
+    </form>
+    
+    <script src="index.js"></script>
+</body>
+</html>
