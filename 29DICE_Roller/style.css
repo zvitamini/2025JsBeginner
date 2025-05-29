@@ -1,0 +1,49 @@
+#container{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px 5px;
+    background-color: rgb(23, 129, 172);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover{
+    background-color: rgb(22, 173, 233);
+}
+button:active{
+    background-color: rgb(143, 223, 255);
+}
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+#diceImage {
+    border-color: aquamarine;
+    border: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* dikey ortalama istersen */
+    flex-wrap: wrap;     /* çok zar varsa alt satıra geçsin */
+    gap: 10px;           /* aralarına boşluk koyar */
+    margin-top: 10px;
+}
+#diceImage img {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #000000; /* Kalınlık ve renk */
+    
+    border-radius: 15px 5px; 
+    margin: 2px;             /* Zarlar birbirine yapışmasın */
+}
