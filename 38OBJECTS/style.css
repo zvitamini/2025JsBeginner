@@ -1,0 +1,16 @@
+.cursor{
+    display: inline-block;
+    width: 15px;
+    animation: blink 0.7s infinite;
+    color: black;
+}
+@keyframes blink{
+    0%, 50% {opacity: 1; }
+    51%, 100% {opacity: 0; }
+}
+
+.red{ color: red;}
+.blue{ color: blue;}
+.green{ color: green;}
+.orange{ color: orange;}
+.magenta{ color: magenta;}
